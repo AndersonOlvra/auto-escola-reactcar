@@ -8,7 +8,7 @@ const colorYellow = "#ffc107";
 
 const Root = styled.div`
   color: #fff;
-  padding: 100px, 0;
+  padding: 100px 0;
 
   ${(props) => css`
     background: url(${props.image}), rgba(0, 0, 0, 0.4);
@@ -40,7 +40,7 @@ const Content = styled.div`
 
 const Container = styled.div`
   width: 100%;
-  margin: 0 8px;
+  padding: 0 8px;
 
   ${breakAt(BreakpointSizes.sm)} {
     padding: 0 16px;
