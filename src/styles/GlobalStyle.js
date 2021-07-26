@@ -1,14 +1,12 @@
 import React from "react";
-
-import { Helmet } from "react-helmet";
 import { createGlobalStyle } from "styled-components";
+import { Helmet } from "react-helmet";
 
 import { BreakpointSizes, breakAt } from "./Breakpoints";
 
 const GlobalStyle = createGlobalStyle`
-
   html {
-    font-family: "Poppins", "sans-serif";
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 100%;
     color: #212121;
@@ -29,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
     letter-spacing: 2px;
 
     strong {
-      color: #ffc107;
+      color: ${(props) => props.theme.colors.primary.main};
     }
   }
 
@@ -97,4 +95,4 @@ const GlobalStyleComposed = () => (
   </>
 );
 
-export default GlobalStyle;
+export default GlobalStyleComposed;
