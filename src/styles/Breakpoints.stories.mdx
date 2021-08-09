@@ -22,7 +22,7 @@ Breakpoints for responsive layout:
   </tr>
   <tr>
     <th>Large (lg)</th>
-    <td>>= {BreakpointSizes.lg}md</td>
+    <td>>= {BreakpointSizes.lg}px</td>
   </tr>
   <tr>
     <th>Extra Large (xl)</th>
@@ -38,8 +38,8 @@ import { breakAt, BreakpointSizes } from Breakpoints;
 const Title = styled.h1`
     font-size: 1rem;
 
-    ${breakAt(BreakpointSizes.md)} {
-        font-size: 2rem;
-    }
+   ${breakAt(BreakpointSizes.md)} {
+       font-size: 2rem;
+   }
 `;
 ```

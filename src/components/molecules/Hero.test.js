@@ -6,11 +6,11 @@ import Hero from "./Hero";
 test("renders Hero with children", () => {
   const { getByText } = render(
     <Hero>
-      <p>React Car</p>
+      <p>Bruno Nardini</p>
     </Hero>
   );
 
-  expect(getByText("React Car")).toBeInTheDocument();
+  expect(getByText("Bruno Nardini")).toBeInTheDocument();
 });
 
 test("renders image background", () => {

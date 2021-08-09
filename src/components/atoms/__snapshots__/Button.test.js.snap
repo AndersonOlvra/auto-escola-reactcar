@@ -104,6 +104,11 @@ exports[`renders with color primary and variant link 1`] = `
   background-color: #ffc107;
   border: 2px solid #ffc107;
   color: #212121;
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffc107;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .c0:disabled {
@@ -116,22 +121,14 @@ exports[`renders with color primary and variant link 1`] = `
   border-color: #c79100;
 }
 
-.c1 {
-  background-color: transparent;
-  border-color: transparent;
-  color: #ffc107;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.c1:hover:enabled {
+.c0:hover:enabled {
   background-color: transparent;
   border-color: transparent;
   color: #c79100;
 }
 
 <button
-    class="c0 c1"
+    class="sc-AxjAm c0"
     color="primary"
     type="button"
   />
@@ -149,6 +146,8 @@ exports[`renders with color primary and variant outlined 1`] = `
   background-color: #ffc107;
   border: 2px solid #ffc107;
   color: #212121;
+  background-color: transparent;
+  color: #ffc107;
 }
 
 .c0:disabled {
@@ -161,18 +160,13 @@ exports[`renders with color primary and variant outlined 1`] = `
   border-color: #c79100;
 }
 
-.c1 {
-  background-color: transparent;
-  color: #ffc107;
-}
-
-.c1:hover:enabled {
+.c0:hover:enabled {
   background-color: transparent;
   color: #c79100;
 }
 
 <button
-    class="c0 c1"
+    class="sc-AxjAm c0"
     color="primary"
     type="button"
   />
@@ -221,6 +215,11 @@ exports[`renders with variant link 1`] = `
   background-color: #e0e0e0;
   border: 2px solid #e0e0e0;
   color: #212121;
+  background-color: transparent;
+  border-color: transparent;
+  color: #757575;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .c0:disabled {
@@ -233,22 +232,14 @@ exports[`renders with variant link 1`] = `
   border-color: #5a6268;
 }
 
-.c1 {
-  background-color: transparent;
-  border-color: transparent;
-  color: #757575;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.c1:hover:enabled {
+.c0:hover:enabled {
   background-color: transparent;
   border-color: transparent;
   color: #5a6268;
 }
 
 <button
-    class="c0 c1"
+    class="sc-AxjAm c0"
     color="default"
     type="button"
   />
@@ -266,6 +257,8 @@ exports[`renders with variant outlined 1`] = `
   background-color: #e0e0e0;
   border: 2px solid #e0e0e0;
   color: #212121;
+  background-color: transparent;
+  color: #212121;
 }
 
 .c0:disabled {
@@ -278,18 +271,13 @@ exports[`renders with variant outlined 1`] = `
   border-color: #5a6268;
 }
 
-.c1 {
-  background-color: transparent;
-  color: #212121;
-}
-
-.c1:hover:enabled {
+.c0:hover:enabled {
   background-color: transparent;
   color: #5a6268;
 }
 
 <button
-    class="c0 c1"
+    class="sc-AxjAm c0"
     color="default"
     type="button"
   />
